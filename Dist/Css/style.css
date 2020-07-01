@@ -105,7 +105,6 @@
     color: black;
 }
 
-
 /*--------------------------Banner CSS-------------------------------*/
 
 #banner {
@@ -151,7 +150,6 @@
         transform: scale(0.95);
     }
 }
-
 
 /*--------------------------Services CSS-------------------------------*/
 
@@ -297,8 +295,7 @@
     transition: background 0.5s ease 0s;
 }
 
-.owl-controls .owl-buttons .owl-prev:after,
-.owl-controls .owl-buttons .owl-next:after {
+.owl-controls .owl-buttons .owl-prev:after, .owl-controls .owl-buttons .owl-next:after {
     content: "\f104";
     font-family: FontAwesome;
     color: #333;
@@ -321,7 +318,6 @@
     text-align: center;
     text-decoration: none;
 }
-
 
 /* spot light */
 
@@ -423,15 +419,13 @@
     width: 20%
 }
 
-#footer .link-tz,
-#footer .pop-tz {
+#footer .link-tz, #footer .pop-tz {
     text-align: left;
     padding-left: 4%;
     padding-right: 4%
 }
 
-#footer .link-tz ul li,
-#footer .pop-tz ul li {
+#footer .link-tz ul li, #footer .pop-tz ul li {
     font-size: 16px;
     padding-bottom: 5px;
     color: #fff;
@@ -456,8 +450,7 @@
     font-size: 14px
 }
 
-#footer .link-tz ul li a,
-#footer .pop-tz ul li a {
+#footer .link-tz ul li a, #footer .pop-tz ul li a {
     font-size: 14.5px;
     color: #fff;
     text-decoration: none;
@@ -468,8 +461,7 @@
     font-size: 13px
 }
 
-#footer .link-tz ul li a:hover,
-#footer .pop-tz ul li a:hover {
+#footer .link-tz ul li a:hover, #footer .pop-tz ul li a:hover {
     color: #e3e3e3
 }
 
@@ -696,4 +688,120 @@ section:nth-child(odd) {
 
 .logoCard {
     width: 100%;
+}
+
+.AppTitle1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.pricing- table .section-title {
+    padding-bottom: 30px
+}
+
+.pricing-table .section-title h3 {
+    color: #fff
+}
+
+.pricing-table table {
+    border-radius: 6px;
+    color: #4c5256;
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 15px 3px rgba (0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 15px 3px rgba (0, 0, 0, .2);
+    box-shadow: 0 5px 15px 3px rgba (0, 0, 0, .2)
+}
+
+.hot-label {
+    background-size: 41px;
+}
+
+.pricing-table .section-content {
+    margin: 16px 220px 50px;
+    margin-top: 0;
+    padding-top: 30px
+}
+.pricing-table th {
+    color: #383838; 
+    font-size: 22px; 
+    border: 1px 
+    solid rgba (0 , 0,0, .1); 
+    border-top: none; 
+    border-bottom: none
+} 
+.pricing-table td {
+    font-size: 15px; 
+    height: 26px; 
+    vertical-align: middle; 
+    border: 1px solid rgba (0 , 0,0, .1); 
+    border-top: none; 
+    border-bottom: none
+} 
+.pricing-table td i {
+    color: #76b358
+} 
+.pricing-table tr .fee {
+    color: #76b358; 
+    height: 52px; 
+    font-size: 16px; 
+    font-style: italic; 
+    padding-top: 14px;
+} 
+.pricing-table tr .fee sup {
+    top: -16px
+}
+.pricing-table tr .fee span {
+    font-size: 38px
+}
+.pricing- table th:nth-child(1), pricing-table td:nth-child(1) {
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+.pricing-table th:nth-child(2), pricing -table th:nth-child(3), pricing-table th:nth-child(4), pricing-table th:nth-child(5) {
+    font-size: 22px; 
+    height: 50px; 
+    font-weight : 400; 
+    font-style: italic;
+} 
+.pricing-table td:nth-child(2),
+.pricing-table td:nth-child(3), 
+pricing-table td:nth-child(4),
+pricing-table td:nth-child(5), 
+pricing-table th:nth-child(2)),
+pricing-table th:nth-child(3),
+,pricing-table th:nth-child(4),, 
+pricing-table th:nth-child(5) {
+    text-align: center; 
+    vertical-align :middle;
+    width: 155px;
+} 
+
+.pricing-table tr:nth-child(odd) {
+    background-color: #f8fbfd
+} 
+.pricing-table th, .pricing-table tr:nth-child(even) {
+    background-color: #fff
+}
+.pricing-table .clapat-counters .number:after {
+    content: 'm +'
+}
+.explanation {
+    font-size: 15px; 
+    color: #fff; 
+    margin-bottom: 0; 
+    text-align: left
+}
+.pricing-table .explanation:last-of-type {
+    margin-bottom: 10px
+}
+
+#Enterprise {
+    padding: 80px 0;
+}
+.EnterpriseTitle1{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
 }
